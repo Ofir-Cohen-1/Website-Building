@@ -1,0 +1,77 @@
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.search-container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.search-item {
+  margin: 0 2rem;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 2rem;
+  background-color: rgb(53, 148, 138);
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  /* text-align: center; */
+  margin: 0.2rem 0;
+}
+.cell {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  width: 100%;
+  background-color: rgb(53, 148, 138);
+}
+
+#header-item {
+  background-color: turquoise;
+}
+
+.header {
+  margin: 0 2rem;
+  margin-top: 2rem;
+}
+
+.btn {
+  margin: 0 0.2rem;
+  flex: 0.5;
+}
+
+.edit-btn {
+  background-color: green;
+}
+
+.delete-btn {
+  background-color: red;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+input {
+  border: none;
+}
+.sort-btn {
+  cursor: pointer;
+}
